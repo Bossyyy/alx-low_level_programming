@@ -5,18 +5,18 @@
  * followed by new line
  */
 
-void print_alphabet_x10(void
-		{ 
-		int i - 0;
-		char alph;
+void print_alphabet_x10(void)
+	{
+	int i = 0;
+	char alph;
 
-		while (i <= 9)
-		{
+	while (i <= 9)
+	{
 		for (alph = 'a'; alph <= 'z'; alph++)
 		{
-		_putchar(alph);
+			_putchar(alph);
 		}
 		_putchar('\n');
 		i++;
-		}
-		}
+	}
+}
