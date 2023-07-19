@@ -2,7 +2,7 @@
 
 /**
  * main - Finds and prints the sum of even-valued terms in the Fibonacci sequence
- *        that do not exceed 4,000,000.
+ * that do not exceed 4,000,000.
  *
  * Description:
  * This program calculates the sum of even-valued terms in the Fibonacci sequence
@@ -13,20 +13,21 @@
  */
 int main(void)
 {
-    unsigned long int prev1 = 1, prev2 = 2, next, sum = 0;
+	int count;
+	unsigned long fib1 = 1, fib2 = 2, sum = 0, next;
 
-    while (prev1 <= 4000000)
-    {
-        if (prev1 % 2 == 0)
-            sum += prev1;
+	printf("%lu, %lu", fib1, fib2);
 
-        next = prev1 + prev2;
-        prev1 = prev2;
-        prev2 = next;
-    }
+	for (count = 2; count < 50; count++)
+	{
+		sum = fib1 + fib2;
+		printf(", %lu", sum);
 
-    printf("%lu\n", sum);
+		fib1 = fib2;
+		fib2 = sum;
+	}
 
-    return 0;
+	printf("\n");
+
+	return (0);
 }
-
