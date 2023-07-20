@@ -2,7 +2,7 @@
 
 /**
  * to print function that draws line
- * for n is number of times the charactr _ prints
+ * @n  is number of times the charactr _ prints
  */
 void print_line(int n)
 {
