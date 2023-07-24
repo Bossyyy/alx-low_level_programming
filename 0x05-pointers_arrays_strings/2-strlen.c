@@ -4,14 +4,14 @@
  * @k : string
  * Return ; length
  */
-int _strlen(char *k)
+int _strlen(char *s)
 {
 	int longi = 0;
 
-	while (*k != '\0')
+	while (*s != '\0')
 	{
 		longi++;
-		k++;
+		s++;
 	}
 	return (longi);
 }
