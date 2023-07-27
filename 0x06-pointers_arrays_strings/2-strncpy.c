@@ -15,7 +15,7 @@ int u;
 
 	for (u = 0; u < n && *(src + u); u++)
 	{
-	*(dest + u) = *(src + u);
+		*(dest + u) = *(src + u);
 	}
 	for (; u < n; u++)
 	{
