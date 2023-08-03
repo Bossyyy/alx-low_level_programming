@@ -10,7 +10,8 @@ int factorial(int n)
 {
 	int b;
 
-	if (b == 0)
+	if (n == 0)
+
 	{
 		return (1);
 	}
