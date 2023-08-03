@@ -6,7 +6,6 @@ include "main.h"
  * Return: An int
  * Emma
  */
-
 int _strlen_recursion(char *s)
 {
 	int u = 0;
