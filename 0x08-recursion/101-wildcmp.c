@@ -5,7 +5,7 @@
  * @s1: is the string_1 base address.
  * @s2: is the string_2 base address.
  * @u: is the left index.
- * @v: is the special index. 
+ * @v:special index
  * Return: 1 if s is palindrome, 0 otherwise.
  */
 int str_checker(char *s1, char *s2, int u, int v)
